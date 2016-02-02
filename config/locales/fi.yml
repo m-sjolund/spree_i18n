@@ -276,11 +276,11 @@ fi:
         one: Veroaste
         other: Veroasteet
       spree/taxon:
-        one: Taksoni
-        other: Taksonit
+        one: Luokka
+        other: Luokat
       spree/taxonomy:
-        one: Taksonomia
-        other: Taksonomiat
+        one: Luokittelu
+        other: Luokittelut
       spree/tracker:
         one: Seuranta
         other: Seurannat
@@ -401,8 +401,8 @@ fi:
         properties: Ominaisuudet
         prototypes: Prototyypit
         reports: Raportit
-        taxonomies: Taksonomiat
-        taxons: Taksonit
+        taxonomies: Luokittelut
+        taxons: Tuoteluokat
         users: Käyttäjät
       user:
         account: Tili
@@ -437,6 +437,8 @@ fi:
     analytics_desc_list_4: Se on täysin ilmainen!
     analytics_trackers: Tilastoinnin seurantakoodit
     and: ja
+    api:
+      invalid_resource: Virhe annetussa syötteessä.
     approve: Hyväksy
     approved_at: Hyväksytty
     approver: Hyväksyjä
@@ -453,7 +455,7 @@ fi:
     back: Takaisin
     back_end: Backend
     back_to_payment:
-    back_to_resource_list:
+    back_to_resource_list: Takaisin resurssilistaan
     back_to_rma_reason_list:
     back_to_store: Takaisin kauppaan
     back_to_users_list: Takaisin käyttäjäluetteloon
@@ -594,14 +596,14 @@ fi:
     description: Kuvaus
     destination: Kohde
     destroy: Tuhoa
-    details:
+    details: Tiedot
     discount_amount: Alennuksen määrä
     dismiss_banner: Ei kiitos! En ole kiinnostunut, älä näytä tätä viestiä uudelleen.
     display: Näytä
     display_currency: Näytä valuutta
     doesnt_track_inventory:
     edit: Muokkaa
-    editing_resource:
+    editing_resource: Muokataan resurssia
     editing_rma_reason:
     editing_user: Muokataan käyttäjää
     eligibility_errors:
@@ -629,8 +631,8 @@ fi:
     error: virhe
     errors:
       messages:
-        could_not_create_taxon: Ei voi luoda taksonia
-        no_payment_methods_available: No payment methods are configured for this environment
+        could_not_create_taxon: Ei voi luoda tuoteluokkaa
+        no_payment_methods_available: Ympäristöön ei ole määritetty yhtään maksutapaa.
         no_shipping_methods_available: Valitulle sijainnille ei ole toimitustapaa, vaihda osoite ja yritä uudelleen.
     errors_prohibited_this_record_from_being_saved:
       one: Yksi ongelma esti tiedon tallennuksen.
@@ -664,7 +666,7 @@ fi:
     filter_results: Suodata tuloksia
     finalize: Viimeistele
     finalized:
-    find_a_taxon: Etsi taksoni
+    find_a_taxon: Etsi tuoteluokka
     first_item: Ensimmäisen tuotteen kulut
     first_name: Etunimi
     first_name_begins_with: Etunimi alkaa
@@ -689,6 +691,7 @@ fi:
     hide_cents: Piilota sentit
     home: Koti
     i18n:
+      translations: Käännökset
       available_locales: Käytettävissä olevat kielet
       language: Kieli
       localization_settings: Lokalisointiasetukset
@@ -814,8 +817,8 @@ fi:
     new_stock_transfer: Uusi varastosiirto
     new_tax_category: Uusi verotuskategoria
     new_tax_rate: Uusi veroprosentti
-    new_taxon: Uusi taksoni
-    new_taxonomy: Uusi taksonomia
+    new_taxon: Uusi tuoteluokka
+    new_taxonomy: Uusi luokittelu
     new_tracker: Uusi jäljitin
     new_user: Uusi käyttäjä
     new_variant: Uusi variantti
@@ -1118,7 +1121,7 @@ fi:
     sales_total_description: Kaikkien tilausten kokonaismyynti
     sales_totals: Myynti yhteensä
     save_and_continue: Tallenna ja jatka
-    save_my_address:
+    save_my_address: Muista osoitteeni
     say_no: Ei
     say_yes: Kyllä
     scope: Laajuus
@@ -1181,6 +1184,7 @@ fi:
     show: Näytä
     show_active: Näytä aktiiviset
     show_deleted: Näytä poistetut
+    show_discontinued: Näytä myynnistä poistuneet
     show_only_complete_orders: Näytä vain valmiit tilaukset
     show_only_considered_risky:
     show_rate_in_label: Näytä vero hinnoissa
@@ -1231,7 +1235,7 @@ fi:
     states: Läänit/osavaltiot
     states_required: Maakunta vaaditaan
     status: Tila
-    stock:
+    stock: Varasto
     stock_location: Varaston sijainti
     stock_location_info: Varaston tiedot
     stock_locations: Varastot
@@ -1263,20 +1267,20 @@ fi:
     tax_included:
     tax_rate_amount_explanation: Veroprosentit ilmoitetaan desimaalin sadasosina helpottamaan laskemista, (esim. 5% ilmoitetaan 0.05)
     tax_rates: Veroprosentit
-    taxon: Taksoni
-    taxon_edit: Muokkaa taksonia
-    taxon_placeholder: Lisää taksoni
+    taxon: Tuoteluokka
+    taxon_edit: Muokkaa tuoteluokkaa
+    taxon_placeholder: Lisää tuoteluokka
     taxon_rule:
       choose_taxons:
       label:
       match_all:
       match_any:
-    taxonomies: Taksonomiat
-    taxonomy: Taksonomia
-    taxonomy_edit: Muokkaa taksonomiaa
+    taxonomies: Luokittelut
+    taxonomy: Luokittelu
+    taxonomy_edit: Muokkaa luokittelua
     taxonomy_tree_error: Muutosta ei hyväksytty ja hakemistopuu on palautettu edelliseen tilaansa. Yritä uudelleen.
-    taxonomy_tree_instruction: "* Voit lisätä, poistaa ja järjestää taksoneita klikkaamalla taksonia hiiren oikealla näppäimellä."
-    taxons: Taksonit
+    taxonomy_tree_instruction: "* Voit lisätä, poistaa ja järjestää luokkia klikkaamalla luokkia hiiren oikealla näppäimellä."
+    taxons: Tuoteluokat
     test: Testaa
     test_mailer:
       test_email:
