@@ -341,6 +341,7 @@ fi:
         other: "%{count} virhettä estivät kohteen %{resource} tallennuksen:"
   spree:
     abbreviation: Lyhenne
+    access: Rajapinnan käyttöoikeus
     accept:
     acceptance_errors:
     acceptance_status:
@@ -391,29 +392,29 @@ fi:
     admin:
       tab:
         configuration: Konfigurointi
-        option_types:
+        option_types: Valintatyypit
         orders: Tilaukset
         overview: Yleiskatsaus
         products: Tuotteet
         promotions: Kampanjat
-        promotion_categories:
-        properties:
-        prototypes:
+        promotion_categories: Kampanjaryhmät
+        properties: Ominaisuudet
+        prototypes: Prototyypit
         reports: Raportit
-        taxonomies:
-        taxons:
+        taxonomies: Taksonomiat
+        taxons: Taksonit
         users: Käyttäjät
       user:
         account: Tili
         addresses: Osoitteet
         items: Tuotteet
-        items_purchased:
-        order_history:
-        order_num:
+        items_purchased: Ostetut tuotteet
+        order_history: Tilaushistoria
+        order_num: Tilausnumero
         orders: Tilaukset
-        user_information:
+        user_information: Käyttäjätiedot
     administration: Hallinnointi
-    advertise:
+    advertise: Mainosta
     agree_to_privacy_policy: Hyväksy rekisteriselosteen ehdot
     agree_to_terms_of_service: Hyväksy käyttöehdot
     all: Kaikki
@@ -436,9 +437,9 @@ fi:
     analytics_desc_list_4: Se on täysin ilmainen!
     analytics_trackers: Tilastoinnin seurantakoodit
     and: ja
-    approve:
-    approved_at:
-    approver:
+    approve: Hyväksy
+    approved_at: Hyväksytty
+    approver: Hyväksyjä
     are_you_sure: Oletko varma?
     are_you_sure_delete: Haluatko varmasti poistaa tämän tiedon?
     associated_adjustment_closed: Tähän liitetty hintamuutos on suljettu, joten sitä ei huomioida laskuissa. Haluatko avata sen?
@@ -447,7 +448,7 @@ fi:
     authorized:
     auto_capture:
     available_on: Saatavilla
-    average_order_value:
+    average_order_value: Tilauksen keskimääräinen arvo
     avs_response:
     back: Takaisin
     back_end: Backend
@@ -471,8 +472,8 @@ fi:
     calculator: Laskin
     calculator_settings_warning: Mikäli vaihdat laskimen tyyppiä, sinun täytyy ensin tallentaa ennen kuin voit muuttaa laskimen asetuksia
     cancel: peruuta
-    canceled_at:
-    canceler:
+    canceled_at: Peruutettu
+    canceler: Peruutuksen tekijä
     cannot_create_customer_returns:
     cannot_create_payment_without_payment_methods: Et voi luoda maksua tilaukselle ilman että mitään maksutapoja on määritelty.
     cannot_create_returns: Palautuksia ei voida luoda, koska tilausta ei ole vielä lähetetty.
@@ -482,7 +483,7 @@ fi:
     capture_events:
     card_code: Kortin koodi
     card_number: Kortin numero
-    card_type:
+    card_type: Kortin tyyppi
     card_type_is: Kortin tyyppi on
     cart: Ostoskori
     cart_subtotal:
@@ -497,7 +498,8 @@ fi:
     choose_dashboard_locale: Valitse hallintapaneelin kieli
     choose_location:
     city: Postitoimipaikka
-    clear_cache:
+    clear_cache: Tyhjennä välimuisti
+    clear_key: Tyhjennä avain
     clear_cache_ok:
     clear_cache_warning:
     click_and_drag_on_the_products_to_sort_them:
@@ -538,10 +540,10 @@ fi:
     coupon_code_max_usage: Kaikki kampanjakoodit on jo käytetty
     coupon_code_not_eligible: Kampanjakoodi ei ole käytettävissä tälle tilaukselle
     coupon_code_not_found: Näppäilemääsi kampanjakoodia ei löytynyt. Yritä uudelleen.
-    coupon_code_unknown_error:
+    coupon_code_unknown_error: Tuntematon virhe kampanjakoodin syötössä. Yritä uudelleen.
     create: Luo
     create_a_new_account: Tee uusi tili
-    create_new_order:
+    create_new_order: Tee uusi tilaus
     create_reimbursement:
     created_at: Luotu
     credit: Luotto
@@ -658,10 +660,11 @@ fi:
     failed_payment_attempts:
     filename: Tiedostonimi
     fill_in_customer_info: Täytä asiakastiedot
+    filter: Suodata
     filter_results: Suodata tuloksia
     finalize: Viimeistele
     finalized:
-    find_a_taxon:
+    find_a_taxon: Etsi taksoni
     first_item: Ensimmäisen tuotteen kulut
     first_name: Etunimi
     first_name_begins_with: Etunimi alkaa
@@ -697,10 +700,10 @@ fi:
     implement_eligible_for_return:
     implement_requires_manual_intervention:
     inactive:
-    incl:
+    incl: sis.
     included_in_price: Sisällytetty hintaan
     included_price_validation: cannot be selected unless you have set a Default Tax Zone
-    incomplete:
+    incomplete: Keskeneräinen
     info_number_of_skus_not_shown:
     info_product_has_multiple_skus:
     instructions_to_reset_password: 'Täytä alla oleva lomake, ja ohjeet salasanan palauttamiseksi lähetetään sähköpostilla:'
@@ -709,7 +712,7 @@ fi:
     intercept_email_address: Intercept Email Address
     intercept_email_instructions: Override email recipient and replace with this address.
     internal_name: Sisäinen nimi
-    invalid_credit_card:
+    invalid_credit_card: Virheellinen luottokortti.
     invalid_exchange_variant:
     invalid_payment_provider: Virheellinen maksutavan tarjoaja.
     invalid_promotion_action: Virheellinen kampanjan toiminto.
@@ -746,7 +749,7 @@ fi:
     locale_changed: Lokalisointi vaihdettu
     location: Sijainti
     lock: Lukitse
-    log_entries:
+    log_entries: 
     logged_in_as: Kirjauduttu
     logged_in_succesfully: Kirjauduttu onnistuneesti
     logged_out: Olet kirjautunut ulos.
@@ -768,7 +771,7 @@ fi:
       none: Ei mitään
     max_items: Tuotteiden enimmäismäärä
     member_since: Käyttäjätunnus perustettu
-    memo:
+    memo: Muistio
     meta_description: Meta-kuvaus
     meta_keywords: Meta-avainsanat
     meta_title: Meta-otsikko
@@ -784,9 +787,9 @@ fi:
     name_or_sku: Nimi tai SKU
     new: Uusi
     new_adjustment: Uusi hintamuutos
-    new_country:
+    new_country: Uusi maa
     new_customer: Uusi asiakas
-    new_customer_return:
+    new_customer_return: 
     new_image: Uusi kuva
     new_option_type: Uusi valintatyyppi
     new_order: Uusi tilaus
@@ -794,14 +797,14 @@ fi:
     new_payment: Uudet maksut
     new_payment_method: Uusi maksutapa
     new_product: Uusi tuote
-    new_promotion: New Promotion
-    new_promotion_category:
+    new_promotion: Uusi kampanja
+    new_promotion_category: Uusi kampanjaryhmä
     new_property: Uusi ominaisuus
     new_prototype: Uusi prototyyppi
-    new_refund:
-    new_refund_reason:
+    new_refund: Uusi hyvitys
+    new_refund_reason: Uusi hyvityksen syy
     new_return_authorization: Uusi asiakaspalautus
-    new_rma_reason:
+    new_rma_reason: Uusi RMA
     new_shipment_at_location:
     new_shipping_category: Uusi toimituskategoria
     new_shipping_method: Uusi toimitustapa
@@ -819,15 +822,15 @@ fi:
     new_zone: Uusi alue
     next: Seuraava
     no_actions_added: Toimintoja ei lisätty
-    no_payment_found:
+    no_payment_found: Maksuja ei löytynyt
     no_pending_payments: Ei maksuja odottamassa
     no_products_found: Ei löytynyt tuotteita
     no_resource_found: Kohdetta %{resource} ei löytynyt
     no_results: Ei tuloksia
-    no_returns_found:
+    no_returns_found: Palautuksia ei löytynyt
     no_rules_added: Sääntöjä ei lisätty
-    no_shipping_method_selected:
-    no_state_changes:
+    no_shipping_method_selected: Toimitustapaa ei ole valittu
+    no_state_changes: Ei muutoksia tilassa
     no_tracking_present: Seurantatietoja ei ole annettu.
     none: Ei yhtäkään
     none_selected: Ei valittu
@@ -836,7 +839,7 @@ fi:
     not_available: N/A
     not_enough_stock: Varastossa josta tuotteet pitäisi lähettää ei ole tarpeeksi montaa tuotetta siirron suorittamiseksi.
     not_found: "%{resource} ei löytynyt"
-    note:
+    note: Viesti
     notice_messages:
       product_cloned: Tuote kloonattu
       product_deleted: Tuote poistettu
@@ -844,7 +847,7 @@ fi:
       product_not_deleted: Tuotetta ei voitu poistaa
       variant_deleted: Variantti poistettu
       variant_not_deleted: Varianttia ei voitu poistaa
-    num_orders:
+    num_orders: Tilausten lukumäärä
     on_hand: Saatavilla
     open: Avaa
     open_all_adjustments: Avaa kaikki hintamuutokset
@@ -859,9 +862,9 @@ fi:
     or_over_price: "%{price} or over"
     order: Tilaus
     order_adjustments: Tilauksen hintamuutokset
-    order_already_updated:
-    order_approved:
-    order_canceled:
+    order_already_updated: Tilaus on jo päivitetty
+    order_approved: Tilaus hyväksytty
+    order_canceled: Tilaus peruutettu
     order_details: Tilauksen tiedot
     order_email_resent: Tilausviesti uudelleenlähetetty
     order_information: Tilauksen tiedot
@@ -871,18 +874,18 @@ fi:
         instructions: Tilauksesi on PERUUTETTU. Ole hyvä ja pidä tämä peruutusvahvistus tallessa.
         order_summary_canceled: Tilauksen yhteenveto [PERUUTETTU]
         subject: Tilauksen peruutus
-        subtotal:
-        total:
+        subtotal: Rivit yhteensä
+        total: Yhteensä
       confirm_email:
-        dear_customer: Dear Customer,\n
+        dear_customer: Hyvä asiakkaamme,\n
         instructions: Ole hyvä ja pidä tilauksen tiedot tallessa.
         order_summary: Tilauksen yhteenveto
         subject: Tilausvahvistus
-        subtotal:
-        thanks: Thank you for your business.
-        total:
+        subtotal: Rivit yhteensä
+        thanks: Kiitoksia tilauksestasi.
+        total: Yhteensä
     order_not_found: Tilaustasi ei löytynyt näillä tiedoilla. Yritä ystävällisesti uudelleen.
-    order_number:
+    order_number: Tilausnumero
     order_populator:
       out_of_stock: "%{item} on loppunut varastosta."
       please_enter_reasonable_quantity: Anna joku kohtuullinen määrä.
@@ -919,8 +922,8 @@ fi:
     path: Polku
     pay: maksa
     payment: Maksu
-    payment_could_not_be_created:
-    payment_identifier:
+    payment_could_not_be_created: Maksua ei onnistuttu luomaan.
+    payment_identifier: Maksun tunniste
     payment_information: Maksun tiedot
     payment_method: Maksutapa
     payment_method_not_supported: Tätä maksutapaa ei voida hyväksyä. Valitse joku toinen maksutapa.
@@ -941,9 +944,9 @@ fi:
       void: mitätön
     payment_updated: Maksu päivitetty
     payments: Maksut
-    pending:
+    pending: Odottava
     percent: Prosentti
-    percent_per_item: Percent Per Item
+    percent_per_item: Prosentti per tuote
     permalink: Permalink
     phone: Puhelin
     place_order: Tee tilaus
@@ -958,8 +961,8 @@ fi:
     previous: Edellinen
     previous_state_missing:
     price: Hinta
-    price_range: 
-    price_sack: 
+    price_range: Hintaväli
+    price_sack: Hintasäkki
     process: Prosessi
     product: Tuote
     product_details: Tuotetiedot
@@ -991,7 +994,7 @@ fi:
       free_shipping:
         description:
         name:
-    promotion_actions: Actions
+    promotion_actions: Toiminnot
     promotion_form:
       match_policies:
         all: Täyttää kaikki säännöt
@@ -1049,9 +1052,10 @@ fi:
     reference: Viite
     refund: Hyvitä
     refund_amount_must_be_greater_than_zero: Hyvityksen summan tulee olla suurempi kuin nolla.
-    refund_reasons:
+    refund_reasons: Hyvitysten syyt
     refunded_amount:
-    refunds:
+    refunds: Hyvitykset
+    regenerate_key: Luo uusi avain
     register: Rekisteröidy uutena käyttäjänä
     registration: Rekisteröityminen
     reimburse:
@@ -1071,7 +1075,7 @@ fi:
     reimbursement_status:
     reimbursement_type:
     reimbursement_type_override:
-    reimbursement_types:
+    reimbursement_types: 
     reimbursements:
     reject:
     rejected:
@@ -1087,7 +1091,7 @@ fi:
     resumed: Jatkettu
     return: palaa
     return_authorization: Asiakaspalautus
-    return_authorization_reasons:
+    return_authorization_reasons: Palautussyyt
     return_authorization_updated: Asiakaspalautus päivitetty
     return_authorizations: Asiakaspalautukset
     return_item_inventory_unit_ineligible:
@@ -1096,10 +1100,10 @@ fi:
     return_item_time_period_ineligible:
     return_items:
     return_items_cannot_be_associated_with_multiple_orders:
-    return_number:
+    return_number: Palautuksen numero
     return_quantity: Palautettava määrä
     returned: Palattu
-    returns:
+    returns: Palautukset
     review: 
     risk:
     risk_analysis:
@@ -1182,7 +1186,7 @@ fi:
     show_rate_in_label: Näytä vero hinnoissa
     sku: SKU
     skus:
-    slug:
+    slug: Tunniste
     source: Lähde
     special_instructions: Erityisohjeet
     split: Jaa osiin
@@ -1190,7 +1194,7 @@ fi:
     ssl:
       change_protocol:
     start: Alku
-    state: Osavaltio
+    state: Tila
     state_based: Sijaintilääni/-osavaltio
     state_machine_states:
       accepted:
@@ -1294,7 +1298,7 @@ fi:
     total_per_item:
     total_pre_tax_refund:
     total_price:
-    total_sales:
+    total_sales: Myynti yhteensä
     track_inventory:
     tracking: Seuranta
     tracking_number: Seurantatunnus
