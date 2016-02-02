@@ -404,13 +404,13 @@ fi:
         taxons:
         users: Käyttäjät
       user:
-        account:
-        addresses:
-        items:
+        account: Tili
+        addresses: Osoitteet
+        items: Tuotteet
         items_purchased:
         order_history:
         order_num:
-        orders:
+        orders: Tilaukset
         user_information:
     administration: Hallinnointi
     advertise:
@@ -727,8 +727,8 @@ fi:
       operators:
         gt: suurempi kuin
         gte: suurempi tai yhtäsuuri kuin
-        lt:
-        lte:
+        lt: pienempi kuin
+        lte: pienempi tai yhtäsuuri kuin
     items_cannot_be_shipped: Toimituskulujen laskeminen näille tuotteille ei onnistunut.
     items_in_rmas:
     items_reimbursed:
@@ -739,7 +739,7 @@ fi:
     last_name: Sukunimi
     last_name_begins_with: Sukunimi alkaa
     learn_more: Lue lisää
-    lifetime_stats:
+    lifetime_stats: Tilastot
     line_item_adjustments:
     list: Lista
     loading: Ladataan
@@ -755,7 +755,7 @@ fi:
     login_failed: Kirjautumisen autentikointi epäonnistui.
     login_name: Nimi
     logout: Kirjaudu ulos
-    logs:
+    logs: Logit
     look_for_similar_items: Etsi samanlaisia tuotteita
     make_refund: Tee hyvitys
     make_sure_the_above_reimbursement_amount_is_correct:
@@ -767,11 +767,11 @@ fi:
       all: Kaikki
       none: Ei mitään
     max_items: Tuotteiden enimmäismäärä
-    member_since:
+    member_since: Käyttäjätunnus perustettu
     memo:
     meta_description: Meta-kuvaus
     meta_keywords: Meta-avainsanat
-    meta_title:
+    meta_title: Meta-otsikko
     metadata: Metadata
     minimal_amount: Vähimmäismäärä
     month: Kuukausi
@@ -780,7 +780,7 @@ fi:
     my_account: Oma tili
     my_orders: Tilaukseni
     name: Nimi
-    name_on_card:
+    name_on_card: Kortinhaltijan nimi
     name_or_sku: Nimi tai SKU
     new: Uusi
     new_adjustment: Uusi hintamuutos
@@ -830,7 +830,7 @@ fi:
     no_state_changes:
     no_tracking_present: Seurantatietoja ei ole annettu.
     none: Ei yhtäkään
-    none_selected:
+    none_selected: Ei valittu
     normal_amount: Normaali määrä
     not: ei
     not_available: N/A
@@ -950,7 +950,7 @@ fi:
     please_define_payment_methods: Ole hyvä ja määrittele ensin joitakin maksutapoja.
     populate_get_error: Jokin meni pieleen. Ole hyvä ja yritä lisätä tuotetta uudelleen.
     powered_by: Palvelun tarjoaa
-    pre_tax_amount:
+    pre_tax_amount: 
     pre_tax_refund_amount:
     pre_tax_total:
     preferred_reimbursement_type:
@@ -958,8 +958,8 @@ fi:
     previous: Edellinen
     previous_state_missing:
     price: Hinta
-    price_range: Price Range
-    price_sack: Price Sack
+    price_range: 
+    price_sack: 
     process: Prosessi
     product: Tuote
     product_details: Tuotetiedot
@@ -968,16 +968,16 @@ fi:
     product_properties: Tuotteen ominaisuudet
     product_rule:
       choose_products: Valitse tuotteet
-      label:
+      label: otsikko
       match_all: kaikki
       match_any: ainakin yksi
-      match_none:
+      match_none: ei yhtään
       product_source:
         group: Tuoteryhmästä
         manual: Valitse
     products: Tuotteet
-    promotion: Promotion
-    promotion_action: Promotion Action
+    promotion: Kampanja
+    promotion_action: 
     promotion_action_types:
       create_adjustment:
         description: Luo tilaukselle hintamuutoksen kampanjan avulla
@@ -994,19 +994,19 @@ fi:
     promotion_actions: Actions
     promotion_form:
       match_policies:
-        all: Match any of these rules
-        any: Match all of these rules
-    promotion_rule: Promotion Rule
+        all: Täyttää kaikki säännöt
+        any: Täyttää yhdenkin säännön
+    promotion_rule: 
     promotion_rule_types:
       first_order:
         description: Täytyy olla asiakkaan ensimmäinen tilaus
         name: Ensimmäinen tilaus
       item_total:
         description: Tilaus täyttää nämä kriteerit
-        name: Item total
+        name: Tuotteiden summa
       landing_page:
         description: Asiakkaan on täytynyt vierailla tietyllä sivulla
-        name: Landing Page
+        name: Saapumissivu
       one_use_per_user:
         description:
         name:
@@ -1023,8 +1023,8 @@ fi:
         description: Saatavilla vain määritellyille käyttäjille
         name: Käyttäjä
       user_logged_in:
-        description: Available only to logged in users
-        name: User Logged In
+        description: Saatavilla vain kirjautuneille käyttäjille
+        name: Kirjautunut
     promotion_uses:
     promotionable:
     promotions: Kampanjat
@@ -1039,7 +1039,7 @@ fi:
     quantity: Määrä
     quantity_returned: Palautettu määrä
     quantity_shipped: Toimitettu määrä
-    quick_search:
+    quick_search: Pikahaku
     rate: Taso
     reason: Syy
     receive: vastaanota
@@ -1048,7 +1048,7 @@ fi:
     reception_status:
     reference: Viite
     refund: Hyvitä
-    refund_amount_must_be_greater_than_zero:
+    refund_amount_must_be_greater_than_zero: Hyvityksen summan tulee olla suurempi kuin nolla.
     refund_reasons:
     refunded_amount:
     refunds:
@@ -1100,7 +1100,7 @@ fi:
     return_quantity: Palautettava määrä
     returned: Palattu
     returns:
-    review: Review
+    review: 
     risk:
     risk_analysis:
     risky:
@@ -1151,7 +1151,7 @@ fi:
     shipment_state: Toimituksen tila
     shipment_states:
       backorder: jälkitoimitus
-      canceled:
+      canceled: peruutettu
       partial: vajaa
       pending: odottava
       ready: valmis
@@ -1268,7 +1268,7 @@ fi:
       match_all:
       match_any:
     taxonomies: Taksonomiat
-    taxonomy: Taxonomy
+    taxonomy: Taksonomia
     taxonomy_edit: Muokkaa taksonomiaa
     taxonomy_tree_error: Muutosta ei hyväksytty ja hakemistopuu on palautettu edelliseen tilaansa. Yritä uudelleen.
     taxonomy_tree_instruction: "* Voit lisätä, poistaa ja järjestää taksoneita klikkaamalla taksonia hiiren oikealla näppäimellä."
