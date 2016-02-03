@@ -862,7 +862,7 @@ fi:
     optional: Vapaaehtoinen
     options: Valinnat
     or: tai
-    or_over_price: "%{price} or over"
+    or_over_price: "yli %{price}"
     order: Tilaus
     order_adjustments: Tilauksen hintamuutokset
     order_already_updated: Tilaus on jo päivitetty
@@ -1314,10 +1314,10 @@ fi:
     transfer_to_location: Siirrä varastoon
     tree: Puu
     type: Tyyppi
-    type_to_search: Type to search
+    type_to_search: Kirjoita etsiäksesi
     unable_to_connect_to_gateway: Ei saatu yhteyttä yhdyskäytävään
     unable_to_create_reimbursements:
-    under_price: Under %{price}
+    under_price: Alle %{price}
     unlock: Avaa lukitus
     unrecognized_card_type: Tunnistamaton korttityyppi
     unshippable_items: Ei lähetettävissä
